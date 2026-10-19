@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vos styles personnalisés peuvent être ajoutés ici */
+
+/* Global styles for a modern look */
+body {
+  font-family: 'Roboto', sans-serif; /* Or another modern font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-layout-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.main-content-area {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8f8f8;
+  overflow-y: auto;
+  margin-left: 250px; /* Offset for the fixed sidebar width */
+}
+
+@media (max-width: 1024px) {
+  .main-content-area {
+    margin-left: 0; /* Remove offset on smaller screens */
+    padding-left: 20px; /* Add padding for content */
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+/* --- Custom Gantt Chart Styles --- */
+.gantt_task_line {
+  background-color: #007bff;
+  border: 1px solid #0056b3;
+  border-radius: 4px;
+}
+
+.gantt_task_line.gantt_selected {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);
+}
+
+.gantt_task_progress {
+  background-color: #0056b3;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.gantt_grid_scale .gantt_grid_head_cell,
+.gantt_scale_line .gantt_scale_cell {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: 600;
+  border-right: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.gantt_task_text {
+  font-weight: 500;
+  color: white;
+}
+
+.gantt_today_marker {
+  background-color: rgba(255, 99, 71, 0.2);
+  border-left: 1px dashed #ff6347;
+}
+
+.gantt_row {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.gantt_grid_data .gantt_row:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+.gantt_task_row {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.gantt_task_row:nth-child(even) {
+  background-color: #fdfdfd;
+}
