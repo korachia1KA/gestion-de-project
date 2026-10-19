@@ -48,7 +48,7 @@ Une application web complète de gestion de projets développée avec **Spring B
 - **Création et assignation** de tâches aux membres d'équipe
 - **Suivi de progression** avec pourcentages d'avancement
 - **Gestion des priorités** et estimations temporelles
-- **Tâches prédecesseurs** pour les dépendances
+- **Tâches prédécesseurs** pour les dépendances
 - **Tags et catégorisation** des tâches
 - **Statuts détaillés** : À faire, En cours, En révision, Terminé
 
@@ -356,9 +356,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**Ahmed Lamti**
-- Email: lamti.ahmeed@gmail.com
-- GitHub: Lamtus
+**Abdelghafour Korachi**
 
 ---
 
@@ -391,4 +389,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
-**GestionProjet** - Une solution complète pour la gestion de projets d'équipe moderne et efficace ! 🎯 
+**GestionProjet** - Une solution complète pour la gestion de projets d'équipe moderne et efficace ! 🎯
